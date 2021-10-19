@@ -57,7 +57,7 @@
 
 - 하려는 작업에 대한 개괄을 파악하기 위해 일 평균 도매가격 데이터만 넣어서 모델을 만들어봤다.
 
-  ![prophet](C:\Users\USER\ML_Project\image\prophet.png)
+  ![prophet](https://github.com/seosztt/ML_Project/blob/master/image/prophet.png?raw=true)
 
 - 사용 데이터 :2014년 1월 3일부터 2021년 10월 7일까지 일 평균 양파 도매가격 (원/kg)
 
@@ -73,7 +73,7 @@
 
 - 특정 feature의 데이터를 shuffle 했을 때 모델의 예측 성능이 얼마나 감소했는지 보여준다.
 
-![PI_example](C:\Users\USER\ML_Project\image\PI_example.png)
+![PI_example](https://github.com/seosztt/ML_Project/blob/master/image/PI_example.png?raw=true)
 
 - Weight가 음수라는 건 feature의 데이터를 shuffle 했을 때 모델의 성능이 개선되었다는 뜻이다. Weight의 편차 범위 전체가 음수인 feature를 주로 제거하는 방식으로 5차에 걸쳐 제거했다.
 - 73개 였던 feature의 수가 1차 23개, 2차 11개, 3차 4개, 4차 3개, 5차 2개 제거하여 최종 31개로 줄었다.
@@ -82,7 +82,7 @@
 
 # Program
 
-![program](C:\Users\USER\ML_Project\image\program.png)
+![program](https://github.com/seosztt/ML_Project/blob/master/image/program.png?raw=true)
 
 - 도시와 년월을 입력하면 그 도시 해당 년월의 월 평균 도매 가격 예측값이 나오는 프로그램을 작성했다.
 
